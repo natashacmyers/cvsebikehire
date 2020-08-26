@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tangerine:wght@700&display=swap');
+
+/*-------------------- Header ------------------*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background-color: #A9E69B;
+    color: 	#646464;
+    font-family: "Tangerine", sans-serif;
+    font-size: 60px;
+}
+
+
+
+/*-------------------- Section ------------------*/
+
+.backgroundimage {
+    background-image: url("../images/cononley.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.3;
+}
