@@ -1,27 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 /*-------------------- Header ------------------*/
 
 header {
-    margin: 0;
+    background-color:  #74C4A0;
+    padding-left: 20px;
+    height: 100px;
 }
+
 
 .logo {
-    background-color: #A9E69B;
-    color: 	#646464;
-    font-family: "Tangerine", sans-serif;
+    color: #646464;
+    font-family: 'Dancing Script', sans-serif;
     font-size: 60px;
+    padding-bottom: 5px;
+    height: 100px;
+}
+
+.logo:hover {
+     color: #646464;
+     text-decoration: none;
+}
+
+.menu {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    height: 90px;
+    word-spacing: 5px;
+    padding-right: none;
+    padding-top: 20px;
 }
 
 
+.menu li {
+    display: inline;
+}
 
-/*-------------------- Section ------------------*/
+.menu li a{
+    color: 	#646464;
+    
+}
 
+.menu li a:hover {
+    text-decoration: none; 
+    border-bottom: 1px solid #646464;
+
+}
+
+.currentpage {
+   font-weight: bold;
+   border-bottom: 1px solid #646464;
+}
+
+
+/*-------------------- Home Section ------------------*/
+
+section {
+    overflow: hidden;
+}
 .backgroundimage {
     background-image: url("../images/cononley.jpeg");
-    height: 500px;
+    height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     opacity: 0.3;
+    /* below taken from Code Institute Tutorial */
+    animation-name: background-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+   /* end of cited code */
+
+}
+
+@keyframes background-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+/*-------------------- Footer ------------------*/
+
+footer {
+    margin-left: 0;
+
+    /* background-color:  #646464; */
+    padding-left: 15px;  /* why does this make the right hand side have a margin? */
+    margin-right: 15px; 
+    height: 100px;
+    margin-bottom: -1px;
+}
+
+.address {
+    background-color: #464545;
+}
+.addressline {
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 2px;
+    font-family: 'Lato';
+}
+
+.contacthover:hover {
+       color: black;
+       text-decoration: none;
+}
+
+.contact {
+    background-color: #646464;
+}
+.contactinfo {
+     color: rgb(206, 206, 206);
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-family: 'Lato';
+
+}
+
+.socialmedia {
+    background-color: #999999;
 }
