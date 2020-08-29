@@ -23,9 +23,16 @@
 </div>
 </header>
 <section>
-<div class="row no-gutters">
-<div class="col-md-12 backgroundimage">
-
+<div class="row no-gutters backgroundimage">
+<div class="col-md-12 video">
+    <iframe width="700" height="400"
+    src="https://www.youtube.com/embed/sU_VELPDkgU?autoplay=1" allow="autoplay">
+    </iframe>
+</div>
+<div class=" col-md-12 reviews">
+<!-- code borrowed from "https://freefrontend.com/css-speech-bubbles/" -->
+    <div class="bubble bubble-bottom-left" contenteditable> "I loved the E-bike experience, it was a great day out!" John Smith</div>
+<!-- end of borrowed code (see CSS file for CSS content of this code)-->
 </div>
 </div>
 </section>
@@ -41,15 +48,19 @@
     </div>
     <div class="col-md-6 contact">
       <div class="row">
-        <div class="col-12 contactinfo contacthover"><i class="fa fas-envelope"></i>cvsebikehire@yahoo.co.uk</div>
-        <div class="col-12 contactinfo"><i class="fa fas-phone-alt"></i>07802 038201</div>
-        <a href="#" class="col-12 contactinfo contacthover"><i class="fa fas-internet-explorer"></i>www.cononleyvillagestore.com</a>
+        <div class="col-12 contactinfo contacthover"><i aria-hidden="true" class="fas fa-envelope contacticon"></i> cvsebikehire@yahoo.co.uk</div>
+        <div class="col-12 contactinfo"><i aria-hidden="true"  class="fas fa-phone-alt"></i> 07802 038201</div>
+        <a href="#" class="col-12 contactinfo contacthover"><i aria-hidden="true" class="fab fa-internet-explorer"></i> www.cononleyvillagestore.com</a>
       </div>
       
     </div>
-    <div class="col-md-4 socialmedia">
-    <p>social media icons</p>
-    </div>
+    <ul class="col-md-4 socialmedia">
+        <a href="https://www.twitter.com" target="_blank" aria-hidden="true" alt="twitter" class="socialmediaicon"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.tripadvisor.com" target="_blank" aria-hidden="true" alt="trip advisor" class="socialmediaicon"><i class="fab fa-tripadvisor"></i></a>
+        <a href="https://www.facebook.com" target="_blank" aria-hidden="true" alt="facebook" class="socialmediaicon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" aria-hidden="true" alt="instagram" class="socialmediaicon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank" aria-hidden="true" alt="youtube" class="socialmediaicon"><i class="fab fa-youtube"></i></a>
+    </ul>
 </div>
 </footer>
 </body>

@@ -13,3 +13,7 @@ Footer
 
 - how do I make an email address open in their emails?
 - small margin-bottom gap on footer - tried margin-bottom = -1px; nothing happened.
+
+Home Section
+
+- Why is autoplay not working on the video? Tried ?autoplay=1 in address didnt work.
