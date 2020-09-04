@@ -3,6 +3,8 @@ General
 - my site is bigger than the screen - why? 
     fixed with margins in the Footer
 
+- I want opacity in my background - how do I make it so that I don't have opacity in the rest of the screen    
+
 
 Heading 
 

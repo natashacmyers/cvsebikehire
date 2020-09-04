@@ -62,16 +62,28 @@ section {
 }
 .backgroundimage {
     background-image: url("../images/cononley.jpeg");
-    height: 800px;
+    height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
+    display: flex;
     /* below taken from Code Institute Tutorial */
     animation-name: background-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
    /* end of cited code */
 }
+
+/* code from whiskey drop tutorial */ 
+.opaque-overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+
+background-color: rgba(255, 255, 255, 0.5);
+}
+/* end of whiskey drop tutorial code */
 
 @keyframes background-zoom {
     from {
@@ -83,13 +95,13 @@ section {
 }
 
 .video {
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
+    clear:both;
+   
 }
 
-.reviews {
-    padding-left: 30px;
-}
+
 /* text borrowed from https://freefrontend.com/css-speech-bubbles/ */
 
 .bubble {
@@ -101,8 +113,11 @@ section {
   background: #fff;
   border-radius: 40px;
   padding: 24px;
+  margin-left: 300px;
+  margin-top: 100px;
   text-align: center;
   color: #000;
+  clear:both;
 }
 
 .bubble-bottom-left:before {
@@ -117,18 +132,66 @@ section {
   left: 32px;
   bottom: -24px;
 }
+
  /* end of borrowed code (see html file for html section of borrowed code)*/
+
+.review1, .review2 {
+    margin-bottom: -30px;
+}
+ .review2 {
+    margin-left: 300px;
+   
+ }
+
+.buttonrow {
+    margin-top: 100px;
+}
+
+.signupbutton {
+    font-size: 100px;
+}
+
+/*-------------------- Bookings Section ------------------*/
+
+.inspirationtext {
+  font-family: "Lato", sans-serif;
+}
+
+.heading {
+font-family: 'Dancing Script', sans-serif;
+font-size: 40px;
+text-align: center;
+color: #3f3f3f;
+
+}
+
+.accessories {
+ text-align: center;
+ list-style-type: none;
+ 
+}
+
+.inspirationdiv {
+    margin-top: 100px;
+}
+
+.inspirationdiv, .accessoriesdiv, .availabilitydiv, .bookingdiv {
+clear: both;
+padding-left: 250px;
+color: #3f3f3f;
+
+} 
+
 /*-------------------- Footer ------------------*/
+
+
 
 footer {
     margin-left: 0;
-
-    /* background-color:  #646464; */
     padding-left: 15px;  /* why does this make the right hand side have a margin? */
     margin-right: 15px; 
     height: 100px;
     margin-bottom: -1px;
-    height: 90px;
 }
 
 .address {
