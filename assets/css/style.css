@@ -70,6 +70,7 @@ section {
     animation-name: background-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+   
    /* end of cited code */
 }
 
@@ -161,7 +162,7 @@ background-color: rgba(255, 255, 255, 0.5);
 font-family: 'Dancing Script', sans-serif;
 font-size: 40px;
 text-align: center;
-color: #3f3f3f;
+color: #494949;
 
 }
 
@@ -175,12 +176,25 @@ color: #3f3f3f;
     margin-top: 100px;
 }
 
-.inspirationdiv, .accessoriesdiv, .availabilitydiv, .bookingdiv {
+.inspirationdiv, .accessoriesdiv, .bookingdiv {
 clear: both;
-padding-left: 250px;
-color: #3f3f3f;
-
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 50px;
+color: #494949;
+text-align: center;
 } 
+
+.divbackground {
+    background-color: rgb(143, 187, 167);
+    opacity: 0.7;
+    border-radius: 50px;
+    
+}
+.bookingsform {
+  
+
+}
 
 /*-------------------- Footer ------------------*/
 

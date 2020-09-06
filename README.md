@@ -19,3 +19,7 @@ Footer
 Home Section
 
 - Why is autoplay not working on the video? Tried ?autoplay=1 in address didnt work.
+
+Bookings Section 
+
+- why is is the opacity affecting the text and not just the background in the 'div backgound' class?
