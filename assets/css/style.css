@@ -96,7 +96,7 @@ background-color: rgba(255, 255, 255, 0.5);
 }
 
 .video {
-    padding-top: 80px;
+    padding-top: 100px;
     text-align: center;
     clear:both;
    
@@ -141,15 +141,19 @@ background-color: rgba(255, 255, 255, 0.5);
 }
  .review2 {
     margin-left: 300px;
+    margin-bottom: 0px;
    
  }
 
-.buttonrow {
-    margin-top: 100px;
+.signupbutton {
+    margin-top: -150px;
+    font-size: 300px;
 }
 
-.signupbutton {
-    font-size: 100px;
+.buttonrow {
+   
+    margin-top: 0px;
+    margin-bottom: 200px;
 }
 
 /*-------------------- Bookings Section ------------------*/
@@ -180,9 +184,10 @@ color: #494949;
 clear: both;
 padding-left: 100px;
 padding-right: 100px;
-margin-bottom: 50px;
+margin-bottom: 20px;
 color: #494949;
 text-align: center;
+
 } 
 
 .divbackground {
@@ -191,9 +196,54 @@ text-align: center;
     border-radius: 50px;
     
 }
-.bookingsform {
-  
 
+.bookingdiv {
+    margin-bottom: 100px;
+}
+
+.bookingsform input{
+    width: 60%;
+}
+
+/*-------------------- Contact Section ------------------*/
+
+.faqdiv, .contactdiv {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+.faqdiv {
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+.contactdiv {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.contactdiv form input{
+    width: 80%;
+}
+
+#submitbutton {
+    width: 20%;
+}
+
+.faqdiv li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    font-style: italic;
 }
 
 /*-------------------- Footer ------------------*/
