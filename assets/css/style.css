@@ -146,8 +146,9 @@ background-color: rgba(255, 255, 255, 0.5);
  }
 
 .signupbutton {
-    margin-top: -150px;
+    margin-top: -50px;
     font-size: 300px;
+    padding: 0 450px;
 }
 
 .buttonrow {
@@ -156,6 +157,10 @@ background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 200px;
 }
 
+.btn {
+    width: 300px;
+    font-size: 50px;
+}
 /*-------------------- Bookings Section ------------------*/
 
 .inspirationtext {
