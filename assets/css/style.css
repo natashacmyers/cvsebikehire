@@ -82,7 +82,7 @@ left: 0;
 height: 100%;
 width: 100%;
 
-background-color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.6);
 }
 /* end of whiskey drop tutorial code */
 
@@ -101,40 +101,6 @@ background-color: rgba(255, 255, 255, 0.5);
     clear:both;
    
 }
-
-
-/* text borrowed from https://freefrontend.com/css-speech-bubbles/ */
-
-.bubble {
-  position: relative;
-  font-family: sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  width: 300px;
-  background: #fff;
-  border-radius: 40px;
-  padding: 24px;
-  margin-left: 300px;
-  margin-top: 100px;
-  text-align: center;
-  color: #000;
-  clear:both;
-}
-
-.bubble-bottom-left:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 24px solid #fff;
-  border-right: 12px solid transparent;
-  border-top: 12px solid #fff;
-  border-bottom: 20px solid transparent;
-  left: 32px;
-  bottom: -24px;
-}
-
- /* end of borrowed code (see html file for html section of borrowed code)*/
 
 .review1, .review2 {
     margin-bottom: -30px;
@@ -161,6 +127,90 @@ background-color: rgba(255, 255, 255, 0.5);
     width: 300px;
     font-size: 50px;
 }
+
+/* code borrowed from  https://www.bootdey.com/snippets/view/Customer-Reviews#css */
+
+body{margin-top:20px;}
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+    font-size: 60px;
+    color: #646464;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.font-cond-l {
+    color: #646464;
+}
+
+.font-cond {
+    color: #646464;
+}
+/*end of borrowed code */
+
+.reviewdiv {
+    margin-top: 100px;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 90%;
+}
+
+
 /*-------------------- Bookings Section ------------------*/
 
 .inspirationtext {
