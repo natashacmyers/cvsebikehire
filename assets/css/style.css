@@ -237,6 +237,11 @@ color: #494949;
     margin-top: 100px;
 }
 
+.bike-bold {
+    color: red;
+    font-weight: bold;
+}
+
 .inspirationdiv, .accessoriesdiv, .bookingdiv {
 padding-top: 20px;
 clear: both;
