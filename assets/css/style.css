@@ -3,7 +3,7 @@
 /*-------------------- Header ------------------*/
 
 header {
-    background-color:  #74C4A0;
+  background-color:  #74C4A0;
    padding-left: 20px;
    height: 100px;
 }
@@ -15,7 +15,7 @@ header {
     font-size: 60px;
     padding-bottom: 5px;
     height: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 .logosmall {
@@ -24,7 +24,7 @@ header {
     font-size: 50px;
     padding-bottom: 5px;
     height: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -37,7 +37,7 @@ header {
     font-family: 'Dancing Script', sans-serif;
     font-size: 35px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     height: 90px;
     word-spacing: 5px;
     padding-right: none;
@@ -77,10 +77,12 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    width: 100%;
     /* below taken from Code Institute Tutorial */
     animation-name: background-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+
    
    /* end of cited code */
 }
@@ -113,31 +115,25 @@ background-color: rgba(255, 255, 255, 0.6);
    
 }
 
-.review1, .review2 {
-    margin-bottom: -30px;
+.reviewdiv {
+    /* padding: 0 100px 0 100px; */
+    align-content: center;
+    clear: both;
 }
- .review2 {
-    margin-left: 300px;
-    margin-bottom: 0px;
-   
- }
 
 .signupbutton {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     font-size: 300px;
-    padding: 0 450px;
+    clear: both;
+     /* padding: 0 450px;  */
 }
 
-.buttonrow {
-   
+/* .buttonrow {  
     margin-top: 0px;
-    margin-bottom: 200px;
-}
+    margin-bottom: 200px; 
+} */
 
-.btn {
-    width: 300px;
-    font-size: 50px;
-}
+
 
 /* code borrowed from  https://www.bootdey.com/snippets/view/Customer-Reviews#css */
 
@@ -216,7 +212,7 @@ body{margin-top:20px;}
 
 .reviewdiv {
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 120px; 
     width: 80%;
     background-color: white;
     border-radius: 8px;
@@ -226,9 +222,7 @@ body{margin-top:20px;}
 
 /*-------------------- Bookings Section ------------------*/
 
-.inspirationtext {
-  font-family: "Lato", sans-serif;
-}
+
 
 .heading {
 font-family: 'Dancing Script', sans-serif;
@@ -256,12 +250,12 @@ color: #494949;
 .inspirationdiv, .accessoriesdiv, .bookingdiv {
 padding-top: 20px;
 clear: both;
-padding-left: 100px;
+/* padding-left: 100px;
 padding-right: 100px;
-margin-bottom: 20px;
+margin-bottom: 20px; */
 color: #494949;
 text-align: center;
-
+width: 100%;
 } 
 
 .divbackground {
@@ -281,21 +275,21 @@ text-align: center;
 /*-------------------- Contact Section ------------------*/
 
 .faqdiv, .contactdiv {
-  margin-left: 300px;
+  /* margin-left: 300px; */
     margin-bottom: 100px;
   text-align: center;
 
 
-}
+} 
 
-.faqdiv {
+ .faqdiv {
  margin-top: 150px;
 }
 
 .contactdiv {
 margin-top: 100px;
     
-}
+} 
 
 .contactdiv form input{
     width: 80%;
@@ -375,22 +369,39 @@ footer {
 
 }
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1076px){
     header {
         height: 200px;
+        padding-left: none;
     }
     
     .menu {
         display: block;
         clear: both;
         width: 100%;
-        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: left;
+        float: left;
+        
     }
     .logo {
         display: block;
         clear: both;
         width: 100%;
+        text-align: left;
+        
     }
     
 }
 
+@media screen and (max-width: 656px){
+iframe  {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1036px){
+    .review3 {
+        display: none;
+    }
+}

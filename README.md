@@ -24,3 +24,7 @@ Bookings Section
 
 - why is is the opacity affecting the text and not just the background in the 'div backgound' class?
 - why is the alignment all messed up on my contact page?
+
+Responsive Design 
+
+- review 3 display:none isn't working
