@@ -115,23 +115,33 @@ background-color: rgba(255, 255, 255, 0.6);
    
 }
 
+
 .reviewdiv {
-    /* padding: 0 100px 0 100px; */
+    margin-top: 100px;
     align-content: center;
     clear: both;
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 90%;
+    margin-left: 100px;
 }
 
-.signupbutton {
-    /* margin-top: -100px; */
+
+/* .signupbutton {
+    margin-top: 100px; 
     font-size: 300px;
-    clear: both;
-     /* padding: 0 450px;  */
+    clear: both; 
+     padding: 0 450px;  
 }
+*/
 
-/* .buttonrow {  
-    margin-top: 0px;
-    margin-bottom: 200px; 
-} */
+.buttonrow {  
+    margin-top: 100px;
+    margin-bottom: 10px; 
+    clear: both;
+}  
 
 
 
@@ -210,14 +220,6 @@ body{margin-top:20px;}
 }
 /*end of borrowed code */
 
-.reviewdiv {
-    margin-top: 100px;
-    margin-left: 120px; 
-    width: 80%;
-    background-color: white;
-    border-radius: 8px;
-    opacity: 90%;
-}
 
 
 /*-------------------- Bookings Section ------------------*/

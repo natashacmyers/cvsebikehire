@@ -1,155 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b93a754c66.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
+    <title>CVS E-Bike Hire</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-	<script src="https://kit.fontawesome.com/b93a754c66.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-		crossorigin="anonymous" />
-	<title>CVS E-Bike Hire</title>
-</head>
-
-<body>
-	<header>
-		<div class="row no-gutters">
-
-			<a href="index.html" class="d-none d-lg-block col-md-8 logo hvr-skew">Cononley Village Store eBike Hire</a>
-			<a href="index.html" class="col-12 d-lg-none logosmall hvr-skew">CVS eBike Hire</a>
-			<div class="col-12 col-md-4 ">
-				<ul class="menu">
-					<li> 
-						<a href="index.html" class="hvr-skew currentpage"><span>Home |</span></a>
-					</li>
-					<li>
-						<a href="bookings.html" class="hvr-skew"><span>Bookings |</span></a>
-					</li>
-					<li>
-						<a href="contact.html" class="hvr-skew"><span>Contact</span></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
-	<section>
-		<div class="row no-gutters backgroundimage">
-			<div class="opaque-overlay">&nbsp;</div>
-			<div class="col-md-12">
-				<div class="row d-flex justify-content-center">
-					<div class="col-md-12 video">
-						<iframe width="600px" height="400px" src="https://www.youtube.com/embed/sU_VELPDkgU?autoplay=0"
-						>
-                        </iframe>    
-					</div>
-				</div>
-			</div>
-            <!-- code borrowed from  https://www.bootdey.com/snippets/view/Customer-Reviews#css-->
-			<div class="row reviewdiv d-flex justify-content-center">
-				<div class="col-md-10 mgb-40 padb-30 auto-invert line-b-4 align-center">
-					<h1 class=" font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">
-						Read Some of our Reviews!
-					</h1>
-				</div>
-				<ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
-					<li class="review1">
-
-						<p class="fs-110 font-cond-l" contenteditable="false">
-							" I really enjoyed this experience, the day was great,
-							the bikes were very easy to use and the staff at
-							Cononley Store were so helpful with directions!"
-						</p>
-						<h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">
-							Andrea Smith
-						</h5>
-						<small
+  <body>
+    <header>
+      <div class="row no-gutters">
+        <a href="index.html" class="d-none d-lg-block col-md-8 logo hvr-skew"
+          >Cononley Village Store eBike Hire</a
+        >
+        <a href="index.html" class="col-12 d-lg-none logosmall hvr-skew"
+          >CVS eBike Hire</a
+        >
+        <div class="col-12 col-md-4">
+          <ul class="menu">
+            <li>
+              <a href="index.html" class="hvr-skew currentpage"
+                ><span>Home |</span></a
+              >
+            </li>
+            <li>
+              <a href="bookings.html" class="hvr-skew"
+                ><span>Bookings |</span></a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="hvr-skew"><span>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="row no-gutters backgroundimage">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="col-md-12">
+          <div class="row video d-flex justify-content-center">
+            <div class="col-md-12">
+              <iframe
+                width="600px"
+                height="400px"
+                src="https://www.youtube.com/embed/sU_VELPDkgU?autoplay=0"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- code borrowed from  https://www.bootdey.com/snippets/view/Customer-Reviews#css-->
+          <div class="row reviewdiv ">
+            <div
+              class="col-md-10 mgb-40 padb-30 auto-invert line-b-4 align-center d-flex justify-content-center"
+            >
+              <h1
+                class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg"
+                contenteditable="false"
+              >
+                Read Some of our Reviews!
+              </h1>
+            </div>
+            <ul
+              class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm"
+            >
+              <li class="review1">
+                <p class="fs-110 font-cond-l" contenteditable="false">
+                  " I really enjoyed this experience, the day was great, the
+                  bikes were very easy to use and the staff at Cononley Store
+                  were so helpful with directions!"
+                </p>
+                <h5
+                  class="font-cond mgb-5 fg-text-d fs-130"
+                  contenteditable="false"
+                >
+                  Andrea Smith
+                </h5>
+                <small
                   class="font-cond case-u lts-sm fs-80 fg-text-l"
                   contenteditable="false"
-                  >Leeds</small>
-					</li>
-					<li class="review2">
-
-						<p class="fs-110 font-cond-l" contenteditable="false">
-							" I was originally worried about taking our toddler
-							on a bike ride, but the accessories available allowed
-							use to have a great day with no stress. "
-						</p>
-						<h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">
-							Sophie Lincoln
-						</h5>
-						<small
+                  >Leeds</small
+                >
+              </li>
+              <li class="review2">
+                <p class="fs-110 font-cond-l" contenteditable="false">
+                  " I was originally worried about taking our toddler on a bike
+                  ride, but the accessories available allowed use to have a
+                  great day with no stress. "
+                </p>
+                <h5
+                  class="font-cond mgb-5 fg-text-d fs-130"
+                  contenteditable="false"
+                >
+                  Sophie Lincoln
+                </h5>
+                <small
                   class="font-cond case-u lts-sm fs-80 fg-text-l"
                   contenteditable="false"
-                  >Manchester</small>
-					</li>
-					<li class="review3">
-
-						<p class="fs-110 font-cond-l" contenteditable="false">
-							" I would highly recommend ebikes, they are so much fun!
-							There are some amazing views around the area, and
-							Cononley Store were super helpful with ideas for rides."
-						</p>
-						<h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">
-							Sean Carter
-						</h5>
-						<small
+                  >Manchester</small
+                >
+              </li>
+              <li class="review3">
+                <p class="fs-110 font-cond-l" contenteditable="false">
+                  " I would highly recommend ebikes, they are so much fun! There
+                  are some amazing views around the area, and Cononley Store
+                  were super helpful with ideas for rides."
+                </p>
+                <h5
+                  class="font-cond mgb-5 fg-text-d fs-130"
+                  contenteditable="false"
+                >
+                  Sean Carter
+                </h5>
+                <small
                   class="font-cond case-u lts-sm fs-80 fg-text-l"
                   contenteditable="false"
-                  >Harrogate</small>
-					</li>
-				</ul>
-			</div>
-			<!-- end of borrowed code -->
-			<div class="row buttonrow d-flex justify-content-center">
-				<div class="col-md-10 signupbutton ">
-					<a href="bookings.html" button type="button" class="btn btn-lg btn-info">Book Now!</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="row">
-			<div class="col-md-2">
-				<div class="row address">
-					<div class="col-12 addressline">2 King Street</div>
-					<div class="col-12 addressline">Cononley</div>
-					<div class="col-12 addressline">Keighley</div>
-					<div class="col-12 addressline">BD20 8LH</div>
-				</div>
-			</div>
-			<div class="col-md-6 contact">
-				<div class="row">
-					<div class="col-12 contactinfo contacthover">
-						<i aria-hidden="true" class="fas fa-envelope contacticon"></i>
-						cvsebikehire@yahoo.co.uk
-					</div>
-					<div class="col-12 contactinfo">
-						<i aria-hidden="true" class="fas fa-phone-alt"></i> 07802 038201
-					</div>
-					<a href="#"
-						class="col-12 contactinfo contacthover"><i aria-hidden="true" class="fab fa-internet-explorer"></i>
-						www.cononleyvillagestore.com</a>
-				</div>
-			</div>
-			<ul class="col-md-4 socialmedia">
-				<a href="https://www.twitter.com" target="_blank" aria-hidden="true" alt="twitter"
-					class="socialmediaicon"><i class="fab fa-twitter-square"></i></a>
-				<a href="https://www.tripadvisor.com" target="_blank" aria-hidden="true" alt="trip advisor"
-					class="socialmediaicon"><i class="fab fa-tripadvisor"></i></a>
-				<a href="https://www.facebook.com" target="_blank" aria-hidden="true" alt="facebook"
-					class="socialmediaicon"><i class="fab fa-facebook"></i></a>
-				<a href="https://www.instagram.com" target="_blank" aria-hidden="true" alt="instagram"
-					class="socialmediaicon"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.youtube.com" target="_blank" aria-hidden="true" alt="youtube"
-					class="socialmediaicon"><i class="fab fa-youtube"></i></a>
-			</ul>
-		</div>
-	</footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-
+                  >Harrogate</small
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end of borrowed code -->
+          <div class="row buttonrow ">
+            <div class="col-12 d-flex justify-content-center">
+              <a
+                href="bookings.html"
+                button
+                type="button"
+                class="btn btn-lg btn-info"
+                >Book Now!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="row address">
+            <div class="col-12 addressline">2 King Street</div>
+            <div class="col-12 addressline">Cononley</div>
+            <div class="col-12 addressline">Keighley</div>
+            <div class="col-12 addressline">BD20 8LH</div>
+          </div>
+        </div>
+        <div class="col-md-6 contact">
+          <div class="row">
+            <div class="col-12 contactinfo contacthover">
+              <i aria-hidden="true" class="fas fa-envelope contacticon"></i>
+              cvsebikehire@yahoo.co.uk
+            </div>
+            <div class="col-12 contactinfo">
+              <i aria-hidden="true" class="fas fa-phone-alt"></i> 07802 038201
+            </div>
+            <a href="#" class="col-12 contactinfo contacthover"
+              ><i aria-hidden="true" class="fab fa-internet-explorer"></i>
+              www.cononleyvillagestore.com</a
+            >
+          </div>
+        </div>
+        <ul class="col-md-4 socialmedia">
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            aria-hidden="true"
+            alt="twitter"
+            class="socialmediaicon"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a
+            href="https://www.tripadvisor.com"
+            target="_blank"
+            aria-hidden="true"
+            alt="trip advisor"
+            class="socialmediaicon"
+            ><i class="fab fa-tripadvisor"></i
+          ></a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            aria-hidden="true"
+            alt="facebook"
+            class="socialmediaicon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            aria-hidden="true"
+            alt="instagram"
+            class="socialmediaicon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            aria-hidden="true"
+            alt="youtube"
+            class="socialmediaicon"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
