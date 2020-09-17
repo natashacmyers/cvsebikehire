@@ -4,10 +4,13 @@
 
 header {
   background-color:  #74C4A0;
-   padding-left: 20px;
+  
    height: 100px;
 }
 
+.headerdiv {
+
+}
 
 .logo {
     color: #646464;
@@ -16,6 +19,7 @@ header {
     padding-bottom: 5px;
     height: 100px;
     text-align: left;
+    margin-left: 20px;
 }
 
 .logosmall {
@@ -371,7 +375,9 @@ footer {
 
 }
 
-@media screen and (max-width: 1076px){
+/*-------------------- Responsive Design Media Queries ------------------*/
+
+@media screen and (max-width: 1200px){
     header {
         height: 200px;
         padding-left: none;
@@ -386,15 +392,17 @@ footer {
         float: left;
         
     }
-    .logo {
+    .logosmall {
         display: block;
         clear: both;
         width: 100%;
         text-align: left;
+        float: left;
         
     }
     
 }
+
 
 @media screen and (max-width: 656px){
 iframe  {
