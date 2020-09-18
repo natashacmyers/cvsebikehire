@@ -39,13 +39,17 @@ header {
     padding-bottom: 5px;
     padding-top: 15px;
     height: 100px;
-    text-align: left;
     margin-left: 10px;
+}
+
+.logosmalldiv {
+    text-align: center;
 }
 
 .logo:hover {
      color: #646464;
      text-decoration: none;
+     
 }
 
 .menu {
@@ -61,8 +65,9 @@ header {
     margin-left: 0;
 }
 
-.bg-light {
-     background: #646464;
+.menusmall {
+   background-color:  #74C4A0 !important;
+   float: left;
 }
 
 .menu li {
@@ -129,10 +134,10 @@ background-color: rgba(255, 255, 255, 0.6);
 }
 
 .video {
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
     clear:both;
-   
+    padding-bottom: 50px;
 }
 
 
@@ -145,17 +150,10 @@ background-color: rgba(255, 255, 255, 0.6);
     background-color: white;
     border-radius: 8px;
     opacity: 90%;
-    margin-left: 100px;
+    margin: 50px 150px;
 }
 
 
-/* .signupbutton {
-    margin-top: 100px; 
-    font-size: 300px;
-    clear: both; 
-     padding: 0 450px;  
-}
-*/
 
 .buttonrow {  
     margin-top: 100px;
@@ -167,7 +165,10 @@ background-color: rgba(255, 255, 255, 0.6);
 
 /* code borrowed from  https://www.bootdey.com/snippets/view/Customer-Reviews#css */
 
-body{margin-top:20px;}
+.review1, .review2, .review3 {
+    display: inline-block;
+}
+ 
 
 .align-center {
     text-align: center;
@@ -178,21 +179,12 @@ body{margin-top:20px;}
     margin: 0 auto;
 }
 
-@media (min-width: 768px){
-    .hash-list.cols-3 > li:nth-last-child(-n+3) {
-        border-bottom: none;
-    }
-}
-@media (min-width: 768px){
-    .hash-list.cols-3 > li {
-        width: 33.3333%;
-    }
-}
-.hash-list > li {
+
+.hash-list > div {
     display: block;
     float: left;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
 }
 .pad-30, .pad-30-all > * {
     padding: 30px;
@@ -209,9 +201,7 @@ body{margin-top:20px;}
     padding-bottom: 30px;
 }
 
-.mgb-40, .mgb-40-all > * {
-    margin-bottom: 40px;
-}
+
 .align-center {
     text-align: center;
 }
@@ -229,6 +219,7 @@ body{margin-top:20px;}
     font-size: 60px;
     color: #646464;
     font-family: 'Dancing Script', sans-serif;
+    text-align: center;
 }
 
 .font-cond-l {
@@ -238,6 +229,8 @@ body{margin-top:20px;}
 .font-cond {
     color: #646464;
 }
+
+
 /*end of borrowed code */
 
 
@@ -380,21 +373,31 @@ footer {
 .socialmedia {
     background-color: #999999;
     margin-bottom: 0;
+    
 }
 
 .socialmediaicon {
     display: inline-block;
     font-size: 25px;
-    padding-left: 45px;
+    padding-right: 50px; 
     padding-top: 20px;
     color: rgb(206, 206, 206);
 
 }
 
+.smiconleft {
+    padding-left: 10px;
+}
+
 /*-------------------- Responsive Design Media Queries ------------------*/
 
-
-
+@media (max-width: 1430px){
+    .reviewdiv {
+        width: 100%;
+        margin: 50px 0;
+        padding: 0 20px;
+    }
+}
 @media (max-width: 1200px){
     .headerdiv {
         height: 300px;
@@ -410,3 +413,34 @@ footer {
         text-align: center;
     }
 }    
+
+
+}
+
+@media (max-width: 1340px){  
+
+ .reviewdiv {
+     height: 600px;
+ }
+}
+
+
+@media (max-width: 684px){
+ .reviewdiv{
+     height: 450px;
+ }
+
+}
+
+@media (max-width: 664px){
+ .video iframe{
+    width: 100%;
+ }
+}
+
+@media (max-width: 516px){
+ .reviewdiv{
+     padding-top: 10px;
+     height: 490px;
+ }
+
