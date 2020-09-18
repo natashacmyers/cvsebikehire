@@ -254,7 +254,7 @@ color: #494949;
 }
 
 .inspirationdiv {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .bike-bold {
@@ -265,9 +265,7 @@ color: #494949;
 .inspirationdiv, .accessoriesdiv, .bookingdiv {
 padding-top: 20px;
 clear: both;
-/* padding-left: 100px;
-padding-right: 100px;
-margin-bottom: 20px; */
+
 color: #494949;
 text-align: center;
 width: 100%;
@@ -389,7 +387,9 @@ footer {
     padding-left: 10px;
 }
 
-/*-------------------- Responsive Design Media Queries ------------------*/
+/*-------------------- Responsive Design Media Queries  ------------------*/
+
+
 
 @media (max-width: 1430px){
     .reviewdiv {
@@ -444,3 +444,29 @@ footer {
      height: 490px;
  }
 
+
+
+@media (max-width: 768px){
+  .accessoriesdiv, .bookingdiv {
+   width: 100%;  
+   margin-left: 0;
+   margin-bottom: 20px;
+ }
+.inspirationdiv {
+   width: 100%;  
+  margin-left: 0px;
+   margin-bottom: 20px;
+   margin-top: 80px;
+ }
+.accessoriesdiv p {
+    padding: 0 1px;
+}
+.faqdiv li{
+    padding-right: 30px;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+.faqdiv {
+    margin-top: 120px;
+}
+}
