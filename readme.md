@@ -40,7 +40,7 @@ the theme of the site and gives a very countryside, quaint feeling. For the info
 is an easy to read font that works well with 'Dancing Script' and is easy to read at most sizes.
 
 ## Wireframes
-I have included the wireframes for a desktop, ipad and mobile version of this site - [Click Here](http://google.com)
+I have included the wireframes for a desktop, ipad and mobile version of this site - [Click Here](https://github.com/natashacmyers/cvsebikehire/tree/master/assets/wireframes/)
 
 
 ## Features
