@@ -40,8 +40,8 @@ the theme of the site and gives a very countryside, quaint feeling. For the info
 is an easy to read font that works well with 'Dancing Script' and is easy to read at most sizes.
 
 ## Wireframes
-I have included the wireframes for a desktop, ipad and mobile version of this site
-(insert links here)
+I have included the wireframes for a desktop, ipad and mobile version of this site - [Click Here](http://google.com)
+
 
 ## Features
 ### Existing Features
@@ -65,12 +65,50 @@ I would place this on the home page, as this feature would act as inspiration fo
 * GitHub
 
 ## Testing
-* Booking an e-bike
+
+* Navigating using the navbar:
+    1. Opened the website.
+    2. Clicked on all the links in the navbar.
+    3. Made sure I was taken to the correct page within the website.
+    4. Repeated for each page.
+
+* Booking an e-bike:
+    1. Opened the website.
+    3. Clicked 'Bookings' button in the nav bar.
+    4. Clicked on the submit button with an empty form, to see that the required fields appeared.
+    5. Entered an invalid email to check the relevant error message appears.
+    6. Entered an invalid number of bikes to check the relevant error message appears.
+    7. Entered all inputs to check the form submits successfully. Checked a confirmation message appeared.
+    
 * Contacting CVS store for further information
-* Using the 'Book Now' button on the homepage
-* Navigating the site via the navigation background
+    1. Opened the website.
+    2. Clicked on the "Contact" button in the nav bar.
+    3. Clicked on the submit button with an empty form, to see that the required fields appeared.
+    4. Entered an invalid email to check the relevant error message appears.
+    5. Entered all inputs to check the form submits successfully. Checked a confirmation message appeared.
+
 * Navigating home using the logo
+    1. Opened the website.
+    2. Clicked on a page that was not the homepage, using the nav bar.
+    3. Clicked on the logo, to check I returned to the homepage.
+
+* Using the 'Book Now' link.
+    1. Opened the website.
+    2. Clicked on the 'Book Now' button at the bottom of the home page.
+    3. Checked I was taken to the Bookings page.
+
+
 * Using the social media links in the footer to access social media sites
+    1. Opened the website.
+    2. Clicked on all social links (Tripadvisor, Facebook, Twitter, Instagram) in the footer.
+    3. Made sure they opened the correct website in a new tab.
+    4. Repeated for each page.
+
+* Using the website link in the footer to access Cononley Village Store website.
+    1. Opened the website.
+    2. Clicked on the website link in the footer.
+    3. Made sure it opened the correct website in a new tab.
+    4. Repeated for each page.
 
 ## Validator Tests
 
