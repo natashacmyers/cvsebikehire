@@ -54,6 +54,7 @@ with calendar.
 ### Features Left to Implement
 * A regularly updated 'updates' section, that includes popular routes, local pubs and inspiring photograph sites.
 I would place this on the home page, as this feature would act as inspiration for users to book.
+* I would like the confirmation pop ups to ONLY appear when the form is filled in corectly. This will require JS though.
 
 ## Technologies Used
 * HTML5
@@ -79,6 +80,7 @@ I would place this on the home page, as this feature would act as inspiration fo
     5. Entered an invalid email to check the relevant error message appears.
     6. Entered an invalid number of bikes to check the relevant error message appears.
     7. Entered all inputs to check the form submits successfully. Checked a confirmation message appeared.
+    (I am aware that the confirmation message appears without the form being filled in, I will need JS to fix this)
     
 * Contacting CVS store for further information
     1. Opened the website.
@@ -86,6 +88,7 @@ I would place this on the home page, as this feature would act as inspiration fo
     3. Clicked on the submit button with an empty form, to see that the required fields appeared.
     4. Entered an invalid email to check the relevant error message appears.
     5. Entered all inputs to check the form submits successfully. Checked a confirmation message appeared.
+    (I am aware that the confirmation message appears without the form being filled in, I will need JS to fix this)
 
 * Navigating home using the logo
     1. Opened the website.
