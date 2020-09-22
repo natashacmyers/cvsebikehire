@@ -119,7 +119,7 @@ I would place this on the home page, as this feature would act as inspiration fo
 * I then pushed my code to the associated GitHub repository.
 * In the repository settings, I scrolled to the GitHub Pages.
   I selected the 'master branch', under the 'source' menu.
-* I published the project to GitHub pages, which provided me with a url (http://www.cvsebikehire.co.uk/).
+* I published the project to GitHub pages, which provided me with a url https://natashacmyers.github.io/cvsebikehire/
 * Through further inspection, there are no differences to the site after publication.
 
 ## Credits
