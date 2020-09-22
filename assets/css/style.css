@@ -12,12 +12,13 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     width: 100%;
-}    
+}
 
 
 section {
     overflow: hidden;
 }
+
 .backgroundimage {
     background-image: url("../images/cononley.jpeg");
     height: 1400px;
@@ -25,7 +26,7 @@ section {
     background-size: cover;
     display: flex;
     width: 100%;
-  
+
     animation-name: background-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -34,13 +35,12 @@ section {
 
 
 .opaque-overlay {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-
-background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -48,14 +48,16 @@ background-color: rgba(255, 255, 255, 0.6);
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
+
 /*-------------------- Header ------------------*/
 
 header {
-  background-color:  #74C4A0;
+    background-color: #74C4A0;
 }
 
 
@@ -65,7 +67,7 @@ header {
     font-size: 60px;
     height: 100px;
     text-align: left;
-    margin-left: 30px;   
+    margin-left: 30px;
 }
 
 .logosmall {
@@ -82,15 +84,15 @@ header {
 }
 
 .logo:hover {
-     color: #646464;
-     text-decoration: none;
-     
+    color: #646464;
+    text-decoration: none;
+
 }
 
 .logosmall:hover {
-     color: #646464;
-     text-decoration: none;
-     
+    color: #646464;
+    text-decoration: none;
+
 }
 
 .menu {
@@ -106,28 +108,28 @@ header {
 
 
 .menusmall {
-   background-color:  #74C4A0 !important;
-   float: right;
+    background-color: #74C4A0 !important;
+    float: right;
 }
 
 .menu li {
     display: inline;
 }
 
-.menu li a{
-    color: 	#646464;
-    
+.menu li a {
+    color: #646464;
+
 }
 
 .menu li a:hover {
-    text-decoration: none; 
+    text-decoration: none;
     border-bottom: 1px solid #646464;
 
 }
 
 .currentpage {
-   font-weight: bold;
-   border-bottom: 1px solid #646464;
+    font-weight: bold;
+    border-bottom: 1px solid #646464;
 }
 
 
@@ -137,34 +139,37 @@ header {
 .video {
     padding-top: 130px;
     text-align: center;
-    clear:both;
-    padding-bottom: 50px; 
+    clear: both;
+    padding-bottom: 50px;
 }
 
 
 .reviewdiv {
-  
+
     align-content: center;
     width: 80%;
     background-color: white;
     border-radius: 8px;
     opacity: 90%;
     margin: 100px auto 0 auto;
-   
-} 
+
+}
 
 
 
 
-.review1, .review2, .review3 {
+.review1,
+.review2,
+.review3 {
     display: inline-block;
 }
- 
+
 
 .align-center {
     text-align: center;
     margin: auto;
 }
+
 .hash-list {
     display: block;
     padding: 0;
@@ -172,24 +177,30 @@ header {
 }
 
 
-.hash-list > div {
+.hash-list>div {
     display: block;
     float: left;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
-    
+
 }
-.pad-30, .pad-30-all > * {
+
+.pad-30,
+.pad-30-all>* {
     padding: 30px;
 }
 
-.mgb-20, .mgb-20-all > * {
+.mgb-20,
+.mgb-20-all>* {
     margin-bottom: 20px;
 }
-.wpx-100, .wpx-100-after:after {
+
+.wpx-100,
+.wpx-100-after:after {
     width: 100px;
 }
 
-.padb-30, .padb-30-all > * {
+.padb-30,
+.padb-30-all>* {
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -198,16 +209,21 @@ header {
 .align-center {
     text-align: center;
 }
+
 [class*="line-b"] {
     position: relative;
     padding-bottom: 20px;
     border-color: #E6AF2A;
 }
-.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+
+.fg-text-d,
+.fg-hov-text-d:hover,
+.fg-active-text-d.active {
     color: #222;
 }
+
 .font-cond-b {
-   
+
     font-weight: 700 !important;
     font-size: 60px;
     color: #646464;
@@ -225,23 +241,23 @@ header {
 
 
 
-.buttonrow {  
+.buttonrow {
     margin-top: 100px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     clear: both;
-}  
+}
 
 
 .btnsize {
     height: 60px;
-    width: 200px;
+    width: 300px;
     font-size: 33px;
     
-    
+
 }
 
 .btncol {
-    background-color:  #74C4A0;
+    background-color: #74C4A0;
     border: #74C4A0;
 }
 
@@ -250,17 +266,17 @@ header {
 
 
 .heading {
-font-family: 'Dancing Script', sans-serif;
-font-size: 40px;
-text-align: center;
-color: #494949;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #494949;
 
 }
 
 .accessories {
- text-align: center;
- list-style-type: none;
- 
+    text-align: center;
+    list-style-type: none;
+
 }
 
 .inspirationdiv {
@@ -272,14 +288,16 @@ color: #494949;
     font-weight: bold;
 }
 
-.inspirationdiv, .accessoriesdiv, .bookingdiv {
-padding-top: 20px;
-clear: both;
+.inspirationdiv,
+.accessoriesdiv,
+.bookingdiv {
+    padding-top: 20px;
+    clear: both;
 
-color: #494949;
-text-align: center;
-width: 100%;
-} 
+    color: #494949;
+    text-align: center;
+    width: 100%;
+}
 
 .divbackground {
     background-color: white;
@@ -291,32 +309,33 @@ width: 100%;
     margin-bottom: 100px;
 }
 
-.bookingsform input{
+.bookingsform input {
     width: 60%;
 }
 
 /*-------------------- Contact Section ------------------*/
 
-.faqdiv, .contactdiv {
- 
+.faqdiv,
+.contactdiv {
+
     margin-bottom: 100px;
-  text-align: center;
+    text-align: center;
 
 
-} 
+}
 
- .faqdiv {
- margin-top: 200px;
+.faqdiv {
+    margin-top: 200px;
 }
 
 .contactdiv {
-margin-top: 100px;
-    
-} 
+    margin-top: 100px;
 
-.contactdiv form input{
+}
+
+.contactdiv form input {
     width: 80%;
-  
+
 }
 
 #submitbutton {
@@ -341,10 +360,10 @@ margin-top: 100px;
 
 
 footer {
-   
+
     margin-left: 0;
-    padding-left: 15px;  
-    margin-right: 15px;  
+    padding-left: 15px;
+    margin-right: 15px;
     min-height: 100px;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -354,6 +373,7 @@ footer {
     background-color: #464545;
     padding-left: 20px;
 }
+
 .addressline {
     color: rgb(206, 206, 206);
     font-weight: bold;
@@ -362,8 +382,8 @@ footer {
 }
 
 .contacthover:hover {
-       color: black;
-       text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .contact {
@@ -383,13 +403,13 @@ footer {
 .socialmedia {
     background-color: #999999;
     margin-bottom: 0;
-    
+
 }
 
 .socialmediaicon {
     display: inline-block;
     font-size: 25px;
-    padding-right: 50px; 
+    padding-right: 50px;
     padding-top: 20px;
     color: rgb(206, 206, 206);
 
@@ -404,87 +424,94 @@ footer {
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .headerdiv {
         height: 300px;
     }
+
     .menudiv {
         text-align: center;
     }
+
     .menu {
         float: none;
         text-align: center;
     }
+
     .logodiv {
         text-align: center;
     }
-}    
+}
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .accessoriesdiv, .bookingdiv {
-        width: 100%;  
+    .accessoriesdiv,
+    .bookingdiv {
+        width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
-         }
+    }
+
     .inspirationdiv {
-        width: 100%;  
+        width: 100%;
         margin-left: 0px;
         margin-bottom: 20px;
         margin-top: 80px;
-        }
+    }
+
     .accessoriesdiv p {
         padding: 0 1px;
-        }
-    .faqdiv li{
+    }
+
+    .faqdiv li {
         padding-right: 30px;
         margin-left: 0px;
         padding-left: 0px;
-        }
+    }
+
     .faqdiv {
         margin-top: 120px;
-        }
+    }
+
     .reviewdiv {
         width: 95%;
         padding: 10px 0 10px 0;
-    }    
+    }
 
-    .hash-list > div {
-    border-right: none;
-    
+    .hash-list>div {
+        border-right: none;
+
     }
 
     .buttonrow {
-    margin-top: 50px;
+        margin-top: 50px;
     }
 
     .btnsize {
-   padding-top: 0px;
+        padding-top: 0px;
 
-}
-}
-
-
-
-@media (max-width: 684px){
- .reviewdiv{
-     height: 450px;
- }
-
-}
-
-@media (max-width: 664px){
- .video iframe{
-    width: 100%;
- }
-}
-
-@media (max-width: 516px){
- .reviewdiv{
-     padding-top: 10px;
-     height: 490px;
- }
+    }
 }
 
 
+
+@media (max-width: 684px) {
+    .reviewdiv {
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 664px) {
+    .video iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 516px) {
+    .reviewdiv {
+        padding-top: 10px;
+        height: 490px;
+    }
+}
