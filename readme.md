@@ -115,6 +115,13 @@ I would place this on the home page, as this feature would act as inspiration fo
  * I used W3C for css validation.
 ## Deployment
 
+* I wrote my code in GitPod
+* I then pushed my code to the associated GitHub repository.
+* In the repository settings, I scrolled to the GitHub Pages.
+  I selected the 'master branch', under the 'source' menu.
+* I published the project to GitHub pages, which provided me with a url (https://natashacmyers.github.io/cvsebikehire/).
+* Through further inspection, there are no differences to the site after publication.
+
 ## Credits
 ### Media
 * The background image for this site was obtained from https://www.cononleypc.org.uk/
