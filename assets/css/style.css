@@ -281,6 +281,7 @@ header {
 
 .inspirationdiv {
     margin-top: 150px;
+
 }
 
 .bike-bold {
@@ -458,6 +459,11 @@ footer {
         margin-left: 0px;
         margin-bottom: 20px;
         margin-top: 80px;
+       
+    }
+
+    .inspirationdiv p {
+        padding: 0 10px;
     }
 
     .accessoriesdiv p {
