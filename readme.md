@@ -111,7 +111,8 @@ I would place this on the home page, as this feature would act as inspiration fo
     4. Repeated for each page.
 
 ## Validator Tests
-
+ * I used the W3C for html validation.
+ * I used W3C for css validation.
 ## Deployment
 
 ## Credits
