@@ -20,7 +20,9 @@ section {
 }
 
 .backgroundimage {
-    background-image: url("../images/cononley.jpeg");
+    background-image: url("../images/cononley2.jpeg");
+    background-size: cover;
+    background-position: 0px 0px;
     height: 1400px;
     background-repeat: no-repeat;
     background-size: cover;
